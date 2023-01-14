@@ -1,0 +1,40 @@
+@keyframes example {
+  0% {
+    color: rgb(12, 67, 77);
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    color: rgb(255, 0, 221);
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    color: blue;
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    color: green;
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    color: red;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+@font-face {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  src: url("'https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@200&display=swap'")
+    format("truetype");
+  font-style: bold;
+  font-weight: normal;
+}
+
+:root {
+  --color-primary: rgb(12, 67, 77);
+  --text-primary: "Barlow Semi Condensed", sans-serif;
+}
